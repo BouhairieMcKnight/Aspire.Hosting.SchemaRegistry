@@ -1,6 +1,6 @@
 using Confluent.SchemaRegistry;
 
-namespace Aspire.Hosting;
+namespace Mack.Aspire.Hosting.SchemaRegistry;
 
 public sealed class SchemaRegistryHealthCheckOptions
 {

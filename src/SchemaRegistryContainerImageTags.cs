@@ -1,4 +1,4 @@
-namespace Aspire.Hosting;
+namespace Mack.Aspire.Hosting.SchemaRegistry;
 
 internal static class SchemaRegistryContainerImageTags
 {

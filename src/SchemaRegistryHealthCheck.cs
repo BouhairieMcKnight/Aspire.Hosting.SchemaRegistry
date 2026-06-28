@@ -1,7 +1,7 @@
 using Confluent.SchemaRegistry;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Aspire.Hosting;
+namespace Mack.Aspire.Hosting.SchemaRegistry;
 
 /// <summary>
 /// Implements the <see cref="IHealthCheck"/> and <see cref="IDisposable"/> interfaces for providing health checks on schema registry containers

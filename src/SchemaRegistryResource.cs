@@ -1,6 +1,6 @@
 using Aspire.Hosting.ApplicationModel;
 
-namespace Aspire.Hosting;
+namespace Mack.Aspire.Hosting.SchemaRegistry;
 
 public sealed class SchemaRegistryResource([ResourceName] string name)
     : ContainerResource(name), IResourceWithConnectionString

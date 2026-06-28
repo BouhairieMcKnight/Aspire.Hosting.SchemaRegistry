@@ -1,9 +1,10 @@
-﻿using Aspire.Hosting.ApplicationModel;
+﻿using Aspire.Hosting;
+using Aspire.Hosting.ApplicationModel;
 using Confluent.SchemaRegistry;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace Aspire.Hosting;
+namespace Mack.Aspire.Hosting.SchemaRegistry;
 
 public static class SchemaRegistryResourceExtensions
 {
