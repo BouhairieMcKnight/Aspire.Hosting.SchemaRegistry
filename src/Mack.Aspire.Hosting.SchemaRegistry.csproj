@@ -9,6 +9,7 @@
         <Version>1.0.0</Version>
         <Author>Mack.Bouhairie</Author>
         <Product>SchemaRegistry</Product>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
