@@ -9,13 +9,15 @@
         <Version>1.0.0</Version>
         <Author>Mack.Bouhairie</Author>
         <Product>SchemaRegistry</Product>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="Aspire.Hosting" Version="13.3.0" />
-      <PackageReference Include="Aspire.Hosting.Kafka" Version="13.3.0" />
-      <PackageReference Include="Confluent.SchemaRegistry" Version="2.14.0" />
+        <None Include="README.md" Pack="true" PackagePath="\"/>
+        <PackageReference Include="Aspire.Hosting" Version="13.3.0" />
+        <PackageReference Include="Aspire.Hosting.Kafka" Version="13.3.0" />
+        <PackageReference Include="Confluent.SchemaRegistry" Version="2.14.0" />
     </ItemGroup>
 
 </Project>
